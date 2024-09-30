@@ -29,7 +29,7 @@ bunx create-next-app -e https://github.com/devshazam/NextJs14-SEO-Performance-10
 
 ## Features
 
-This template uses [shadcn](https://github.com/shadcn)'s Next.js app structure from [shadcn/ui](https://ui.shadcn.com/).
+This template uses Next.js app structure.
 
 - Next.js 14+ `/app` router
 - TypeScript
