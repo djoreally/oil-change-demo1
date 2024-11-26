@@ -15,16 +15,13 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 import Container from 'react-bootstrap/Container';
 
-
 export default function CarrouselWork() {
-
-
   return (
     <>
       <section id='reviews' className='bg-gray-100'>
      <Container>
           <div className="wrap-template">
-          <h2 className='wrap-template__title'>Оценки:</h2>
+          <h2 className='wrap-template__title'>Reviews:</h2>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -57,23 +54,23 @@ export default function CarrouselWork() {
           >
 
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #1' title='Измайлов Р.Л.' text='yandex.com'/>
+              <Card src={review1} alt='taxi review #1' title='Izmailov R.L.' text='yandex.com'/>
             </SwiperSlide>
 
             <SwiperSlide>
-              <Card src={review2} alt='отзыв о такси #2' title='Торопов Х.В.' text='google.com'/>
+              <Card src={review2} alt='taxi review #2' title='Toropov Kh.V.' text='google.com'/>
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review3} alt='отзыв о такси #3' title='Фарудинов М.К.' text='2gis.ru'/>
+              <Card src={review3} alt='taxi review #3' title='Farudinov M.K.' text='2gis.ru'/>
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review4} alt='отзыв о такси #4' title='Карпов К.К.' text='yandex.com'/>
+              <Card src={review4} alt='taxi review #4' title='Karpov K.K.' text='yandex.com'/>
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review5} alt='отзыв о такси #5' title='Бельский Ю.Д.' text='taxi.yandex.com'/>
+              <Card src={review5} alt='taxi review #5' title='Belsky Yu.D.' text='taxi.yandex.com'/>
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review6} alt='отзыв о такси #6' title='Петров Л.Н.' text='yandex.com'/>
+              <Card src={review6} alt='taxi review #6' title='Petrov L.N.' text='yandex.com'/>
             </SwiperSlide>
           </Swiper>
           </div>
