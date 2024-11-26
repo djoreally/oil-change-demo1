@@ -24,7 +24,7 @@ export default function MainBackground() {
                   highlightClassName="banner__highlight"
                   searchWords={["999", "123-45-67", "the"]}
                   autoEscape={true}
-                  textToHighlight="Tel.: +7 (999) 123-45-67"
+                  textToHighlight="Make Oil Change Great Again-With Our Mobile Service"
                   className="banner__highlighter"
                 />
                   <p className="banner__text">Our company has been operating since 2005, and throughout this time, we have been doing our best to meet client requests at the highest level! <span className="banner__hidden-title">In our company, all clients will be satisfied!</span></p>

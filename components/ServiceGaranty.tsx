@@ -43,7 +43,7 @@ export default function ServiceGaranty() {
               <motion.div variants={cardVariants}>
                 <Image src='/service/icons8-map-100.webp' width='100' height='100' alt='Taxi in Russia' />
               </motion.div>
-              <p className='service__title'>Across Russia</p>
+              <p className='service__title'>We Bring The Oil Change To You</p>
               <p>We provide services throughout Russia + new territories!</p>
             </motion.div>
           </Col>
@@ -56,9 +56,9 @@ export default function ServiceGaranty() {
               viewport={{ once: true, amount: 0.8 }}
             >
               <motion.div variants={cardVariants}>
-                <Image src='/service/icons8-airplane-100.webp' width='100' height='100' alt='Airport pickup in Russia' />
+                <Image src='/service/icons8-airplane-100.webp' width='100' height='100' alt='You Choose The Date And Time in Russia' />
               </motion.div>
-              <p className='service__title'>Airport Pickup</p>
+              <p className='service__title'>You Choose The Date And Time</p>
               <p>We can pick you up at the airport and take you anywhere in Russia + new territories!</p>
             </motion.div>
           </Col>
