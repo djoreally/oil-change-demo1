@@ -71,9 +71,9 @@ export default function ServiceGaranty() {
               viewport={{ once: true, amount: 0.8 }}
             >
               <motion.div variants={cardVariants}>
-                <Image src='/service/icons8-suitcase-100.webp' width='100' height='100' alt='Baggage transport in Russia' />
+                <Image src='/service/icons8-suitcase-100.webp' width='100' height='100' alt='Skip The Line And The Wait in Russia' />
               </motion.div>
-              <p className='service__title'>Baggage Transport</p>
+              <p className='service__title'>Skip The Line And The Wait</p>
               <p>We will deliver your small cargo / luggage to any location in Russia + new territories!</p>
             </motion.div>
           </Col>
