@@ -20,16 +20,15 @@ export default function Loyalty() {
         type: "spring",
         bounce: 0.6,
         duration: 1.8,
-        // repeat: Infinity,
       }
     }
   };
   
   return (
-    <div  className='loyalty'>
+    <div className='loyalty'>
         <Container>
         <div className="wrap-template">
-        <h2 className='wrap-template__title'>Лояльность:</h2>
+        <h2 className='wrap-template__title'>Loyalty:</h2>
             <Row>
                 <Col xs={12} md={6}>
                   <motion.div className="loyalty__wrapper"
@@ -44,18 +43,19 @@ export default function Loyalty() {
                         <motion.div  variants={cardVariants} className="loyalty__logo">
                           <Image src={LogoImage} alt='logo'/>
                         </motion.div>
-                        <motion.div  variants={cardVariants} className="loyalty__logo2" >
+                        <motion.div  variants={cardVariants} className="loyalty__logo2">
                           <Image src={SaleImage} alt='sale'/>
                         </motion.div>
                         <motion.p className="loyalty__text">0000 0000 0000 0001</motion.p>
-                    
                     </motion.div>
                   </motion.div>
                 </Col>
                 <Col xs={12} md={6} className='loyalty__col-mar'>
                   <div className="loyalty__wrapper2">
-                    <h2 className='loyalty__h2'>Карта лояльности:</h2>
-                    <p className='loyalty__desc'>Скидки до 50%, Бонусы и премиальное обслуживание по Вашей персональной карте лояльности. Карта является накопительной системой скидок и бонусов, выдается при первом обслуживании непосредственно и через партнеров.</p>
+                    <h2 className='loyalty__h2'>Loyalty Card:</h2>
+                    <p className='loyalty__desc'>
+                      Discounts of up to 50%, bonuses, and premium service with your personalized loyalty card. The card is part of an accumulative discount and bonus system, issued after your first service directly or through partners.
+                    </p>
                   </div>
                 </Col>
             </Row>
@@ -64,22 +64,3 @@ export default function Loyalty() {
     </div>
   );
 }
-
-  
-
-
-
-
-
-
-
-
-
-
-{/* <div className="wrap-practics">
-    <h2 className='h2-practics'>Карта покрытия:</h2>
-        <div id='map' style={{borderRadius: 15, overflow: 'hidden'}}>
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8b27d2258f8353313fe8e008b812026cc7ad4687c512a9fa954bb2a6c786bd9f&amp;source=constructor" width="100%" height="464" frameBorder="0"></iframe>
-        </div>
-
-  </div> */}

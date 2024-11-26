@@ -13,7 +13,7 @@ export default function MainBackground() {
   return (
     <div className='banner'>
         <Container>
-          <Row  className='banner__row'>
+          <Row className='banner__row'>
             <Col xs={12} md={6} className='banner__col'>
                 <div className="banner__text-wrapper">
                   <Suspense fallback={<div>...</div>}>
@@ -24,24 +24,21 @@ export default function MainBackground() {
                   highlightClassName="banner__highlight"
                   searchWords={["999", "123-45-67", "the"]}
                   autoEscape={true}
-                  textToHighlight="Тел.: +7 (999) 123-45-67"
-
+                  textToHighlight="Tel.: +7 (999) 123-45-67"
                   className="banner__highlighter"
                 />
-                  <p className="banner__text">Наша компания работает с 2005 года и все это время мы изо всех сил стараемся угодить клиентским запросам на высшем уровне! <span className="banner__hidden-title">В нашей компании все клиенты будут удовлетворены!</span></p>
+                  <p className="banner__text">Our company has been operating since 2005, and throughout this time, we have been doing our best to meet client requests at the highest level! <span className="banner__hidden-title">In our company, all clients will be satisfied!</span></p>
                 </div>
             
             </Col>
             <Col xs={12} md={6}>
-              {/* <Image alt="Такси межгород" src={MainImageXs}  style={{ width: '100%', height: 'auto'}} className="banner__img" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority/> */}
-              <Image alt="Такси межгород" src={MainImageXs}  style={{ width: '100%', height: 'auto'}} className="banner__img-xs" priority/>
-              <Image alt="Такси межгород" src={MainImageMd}  style={{ width: '100%', height: 'auto'}} className="banner__img-md" />
-              <Image alt="Такси межгород" src={MainImage}  style={{ width: '100%', height: 'auto'}} className="banner__img" />
+              <Image alt="Intercity Taxi" src={MainImageXs} style={{ width: '100%', height: 'auto'}} className="banner__img-xs" priority/>
+              <Image alt="Intercity Taxi" src={MainImageMd} style={{ width: '100%', height: 'auto'}} className="banner__img-md" />
+              <Image alt="Intercity Taxi" src={MainImage} style={{ width: '100%', height: 'auto'}} className="banner__img" />
             </Col>
 
           </Row>
         </Container>
     </div>
-
   );
 }
