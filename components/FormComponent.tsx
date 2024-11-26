@@ -12,7 +12,7 @@ export default function FormComponent() {
     <div id='order' className='bg-gray-100'>
         <Container>
         <div className="wrap-template">
-        <h2 className='wrap-template__title'>Order:</h2>
+        <h2 className='wrap-template__title'>Book Your Appointment</h2>
           <Row>
                 <Form noValidate 
             action="https://formspree.io/f/mwpeedjj"

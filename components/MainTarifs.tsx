@@ -19,7 +19,7 @@ export default function MainTariffs() {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Taxi Intercity 24/7</Modal.Title>
+          <Modal.Title>Book You Oil Change</Modal.Title>
         </Modal.Header>
         <Modal.Body> 
           <div className='w-full text-center mb-1'>
@@ -88,7 +88,7 @@ export default function MainTariffs() {
                 <motion.div className="practics-block box"   
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-                    <h2>Minivan</h2>
+                    <h2>Brakes And Rotors</h2>
                     <p>Up to 8 seats</p>
                     <Image src={Miniven} alt='intercity taxi' className='tariffs__image-tariff' sizes="100vw"/>
                     <p><b>Price:</b> 45* RUB/km</p>
