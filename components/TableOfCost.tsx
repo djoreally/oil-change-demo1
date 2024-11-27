@@ -8,11 +8,11 @@ export default function TableOfCost() {
     <div className='table'>
       <Container>
         <div className="wrap-template">
-          <h2 className='wrap-template__title'>Directions:</h2>
+          <h2 className='wrap-template__title'>Our Service Area</h2>
           <Table striped bordered hover align='center'>
             <thead>
               <tr>
-                <th>Route</th>
+                <th>City</th>
                 <th>Distance</th>
               </tr>
             </thead>
