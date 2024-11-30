@@ -18,35 +18,35 @@ export default function TableOfCost() {
             </thead>
             <tbody>
               <tr>
-                <td>Moscow - St. Petersburg</td>
+                <td>Pennsylvania - Delaware</td>
                 <td>702 km</td>
               </tr>
               <tr>
-                <td>Volgograd - Rostov</td>
+                <td>New York - New Jersey</td>
                 <td>472 km</td>
               </tr>
               <tr>
-                <td>Moscow - Volgograd</td>
+                <td>Boston - New Hampshire</td>
                 <td>972 km</td>
               </tr>
               <tr>
-                <td>Volgograd - Samara</td>
+                <td>Texax - Arizona</td>
                 <td>811 km</td>
               </tr>
               <tr>
-                <td>Volgograd - Donetsk</td>
+                <td>Ohio - DMV</td>
                 <td>591 km</td>
               </tr>
               <tr>
-                <td>Moscow - Rostov</td>
+                <td>Florida - California</td>
                 <td>1080 km</td>
               </tr>
               <tr>
-                <td>Rostov - Donetsk</td>
+                <td>Alaska - Nevada</td>
                 <td>267 km</td>
               </tr>
               <tr>
-                <td colSpan={2}>We operate across all of Russia + new territories!</td>
+                <td colSpan={2}>We operate across all of the US + and it's territories!</td>
               </tr>
             </tbody>
           </Table>

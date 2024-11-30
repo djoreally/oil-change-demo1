@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-reactpwa",
+  "version": "1.0.50-alpha.14",
+  "description": "Linting of ReactPWA Apps",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "typescript",
+    "reactpwa",
+    "linting",
+    "prettier",
+    "typescript-eslint",
+    "eslint-config-airbnb-base",
+    "eslint-config-airbnb-typescript",
+    "@typescript-eslint/eslint-plugin",
+    "prettier-eslint"
+  ],
+  "author": "Tirth Bodawala <tirthbodawala@atyantik.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0"
+  },
+  "gitHead": "1b9ab957cac25218179b12f2ddc727fabb06f000"
+}

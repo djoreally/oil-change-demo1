@@ -1,0 +1,25 @@
+{
+  "name": "@reactpwa/examples-recoil",
+  "version": "1.0.50-alpha.14",
+  "description": "Integrating Recoil with ReactPWA",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "reactpwa dev",
+    "build": "reactpwa build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tirth Bodawala <tirthbodawala@atyantik.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@reactpwa/core": "^1.0.50-alpha.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5"
+  }
+}

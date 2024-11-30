@@ -52,7 +52,7 @@ export default function MainTariffs() {
                 <motion.div className="practics-block box"   
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-                    <h2>Standard Oil Change</h2>
+                    <h2>Full Synthetic Oil Changes</h2>
                     <p>Up to 4 seats</p>
                     <Image src={Tstandart} alt='intercity taxi' className='tariffs__image-tariff' sizes="100vw"/>
                     <p><b>Price:</b> 28* RUB/km</p>
@@ -76,7 +76,7 @@ export default function MainTariffs() {
                 <motion.div className="practics-block box"   
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-                    <h2>Premium Oil Change+</h2>
+                    <h2>Washing And Detailing</h2>
                     <p>Up to 3 seats</p>
                     <Image src={TkomfortPlus} alt='intercity taxi' className='tariffs__image-tariff' sizes="100vw"/>
                     <p><b>Price:</b> 36* RUB/km</p>

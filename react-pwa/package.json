@@ -1,0 +1,38 @@
+{
+  "name": "reactpwa",
+  "version": "1.0.0",
+  "description": "ReactPWA",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:*\"",
+    "dev:core": "npm run dev -w @reactpwa/core",
+    "dev:cli": "npm run dev -w @reactpwa/cli",
+    "build": "npm run build:core && npm run build:cli",
+    "build:core": "npm run build -w @reactpwa/core",
+    "build:cli": "npm run build -w @reactpwa/cli",
+    "lint": "concurrently \"npm:lint:*\"",
+    "lint:core": "npm run lint -w @reactpwa/core",
+    "lint:cli": "npm run lint -w @reactpwa/cli",
+    "publish": "lerna publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tirth Bodawala <tirthbodawala>",
+  "license": "by-nc-nd",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "lerna": "^6.4.1",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": {
+    "run": [
+      "lint",
+      "build"
+    ]
+  },
+  "dependencies": {
+    "speed-measure-webpack-plugin": "^1.5.0"
+  }
+}

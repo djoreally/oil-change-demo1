@@ -1,0 +1,27 @@
+{
+  "name": "@reactpwa/examples-basic",
+  "version": "1.0.50-alpha.14",
+  "description": "Core of ReactPWA",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "reactpwa dev",
+    "build": "reactpwa --mode=production build",
+    "build:static": "reactpwa build --mode=production --static-site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tirth Bodawala <tirthbodawala@atyantik.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@reactpwa/core": "^1.0.50-alpha.14",
+    "bulma": "^0.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5"
+  },
+  "gitHead": "1b9ab957cac25218179b12f2ddc727fabb06f000"
+}
